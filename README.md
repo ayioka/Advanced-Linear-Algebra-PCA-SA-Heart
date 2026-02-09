@@ -1,14 +1,14 @@
 
 # Advanced Linear Algebra – Principal Component Analysis (PCA)
 
-## 📌 Project Overview
+ Project Overview
 This project implements **Principal Component Analysis (PCA) from scratch** using concepts from **advanced linear algebra**, including covariance matrices, eigenvalues, and eigenvectors. The goal is to reduce the dimensionality of a real-world, Africanized dataset while preserving as much variance as possible.
 
 The implementation strictly avoids high-level PCA libraries and focuses on the mathematical foundations of PCA.
 
 ---
 
-## 📊 Dataset
+ Dataset
 **Dataset:** South African Heart Disease Dataset (`SA_heart.csv`)
 
 **Why this dataset was chosen:**
@@ -19,8 +19,7 @@ The implementation strictly avoids high-level PCA libraries and focuses on the m
 - Suitable for demonstrating real-world PCA preprocessing challenges
 
 ---
-
-## 🧹 Data Preprocessing
+ Data Preprocessing
 The following preprocessing steps were applied:
 - Handling missing values:
   - Median imputation for skewed numerical features
@@ -35,7 +34,7 @@ The following preprocessing steps were applied:
 
 ---
 
-## 🧠 PCA Implementation (From Scratch)
+PCA Implementation (From Scratch)
 The PCA pipeline includes:
 1. Data standardization
 2. Covariance matrix computation
@@ -48,12 +47,12 @@ No PCA functions from `scikit-learn` were used.
 
 ---
 
-## 📈 Explained Variance
+##  Explained Variance
 Explained variance is calculated using eigenvalues to determine how much information each principal component retains. The principal components are ordered by descending eigenvalues to ensure that the most informative components are selected first.
 
 ---
 
-## 📉 Visualization
+##  Visualization
 The notebook includes:
 - A scatter plot of the **original standardized feature space**
 - A scatter plot of the **PCA-transformed data (PC1 vs PC2)**
@@ -62,7 +61,7 @@ These visualizations demonstrate how PCA rotates the data and concentrates varia
 
 ---
 
-## 🗂️ Repository Structure
+##  Repository Structure
 ```
 
 Advanced-Linear-Algebra-PCA-SA-Heart/
@@ -75,7 +74,7 @@ Advanced-Linear-Algebra-PCA-SA-Heart/
 
 ---
 
-## ▶️ How to Run
+## How to Run
 1. Clone the repository:
    ```bash
    git clone https://github.com/ayioka/Advanced-Linear-Algebra-PCA-SA-Heart.git
@@ -95,7 +94,7 @@ Advanced-Linear-Algebra-PCA-SA-Heart/
 
 ---
 
-## 🧪 Requirements
+##  Requirements
 
 Install dependencies using:
 
@@ -105,31 +104,12 @@ pip install numpy pandas matplotlib seaborn
 
 ---
 
-## 🎓 Course Information
+##  Course Information
 
 **Course:** Advanced Linear Algebra
 **Assignment:** Formative 1 – Principal Component Analysis
 **Student:** Shem Ayioka
-
+**Facilitator** Marvin
 ---
 
-## ✅ Learning Outcomes
 
-* Applied eigenvalues and eigenvectors to real data
-* Implemented PCA without high-level abstractions
-* Handled missing and categorical data correctly
-* Interpreted explained variance and PCA projections
-
----
-
-```
-
----
-
-:highlight[This README is academically appropriate, rubric-aligned, and submission-ready.]
-
-If you want, I can:
-- Adjust the tone to be **more technical or more reflective**
-- Shorten it to a **one-page version**
-- Add a **reflection/conclusion section** for extra marks
-```
